@@ -1,0 +1,33 @@
+1. Question
+The question my capstone aims to answer is:
+	Can the inmate’s sentiment be predicted based on their final statement.
+I used sentiment analysis and Natural Language Processing to achieve this goal. I chose this because it was a fascinating dataset and I wanted to dive in to see what insights I could mine. 
+	Several people had played around with the data. There was a fairly clean .csv available with basic scrape information from the website. 
+	Many attempted, including myself, to scrape on a deeper level. Finally I was able to find a scrape with more comprehensive information including: prior occupation, prior record (Y/N), crime, victim, and # of victims.
+	(In the interest of expanding this project in the future I would seek out similar datasets from states other than Texas. I explored the death penalty data globally, but wasn’t able to immediately find anything as granular as the Texas data. It would be interesting to use the models made in this project to expand globally.)
+
+	2.    Data 
+	The data is here: http://www.tdcj.state.tx.us 
+For continued practice I first scraped the data myself, then checked it with an already created csv. Later on in my project I found a more comprehensive csv (as mentioned above) and I used that in some modeling. The first csv has 526 rows and 9 rows.  The second had 520 rows (not as up to date), but had more comprehensive features with 20 columns. The second dataset did have some holes in the data—mostly incomplete information from the earliest executions on record. The data spans from 1986 to 2015. It’s important to note that the statements are given voluntarily, so some simply decided not to give a final statement. 
+
+2. Potential models—
+I’m going to use classification models because I want to know if there was remorse or not. It’s binary and therefore a classification model is necessary.
+
+Topic Modelling with scikit-learn
+TfidfVectorizer
+KMeans, Silhouette Method
+Naïve Bayes Classifier
+	-plot polarity and subjectivity
+Decision trees?
+(Statement length—NLTK)
+Frequency analysis—Wordcloud
+
+(*Still in progress*)
+4. Results—said I would do _____, my score was
+	I would use this one, because____
+
+5. Answer your question
+I set out to predict an inmate’s sentiment based on their final statement, using NLP.
+“….I did that by looking at data, got in this way, made transformations, made these models….”
+
+
